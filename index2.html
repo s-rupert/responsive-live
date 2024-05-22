@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img class="logoimg" src="images/jobhunt.png" alt="logo" />
+      <div class="logo">Job Hunt</div>
+      <img
+        class="mback"
+        height="50%"
+        width="100%"
+        src="images/blue-background-7470781_640.jpg"
+        alt="Main Background"
+      />
+    </header>
+    <div class="body">
+      <h1 class="h1">Let's begin the job hunt.</h1>
+
+      <h1 style="margin-top: 40px">About Job Hunt</h1>
+      <div class="about">
+        <div class="a1">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur odit vitae reprehenderit enim harum necessitatibus
+            obcaecati recusandae unde, aliquid magnam modi ut quam accusantium
+            facilis dolore placeat sapiente. Reiciendis!
+          </p>
+          <p>
+            We also provide career training and interview prepration training
+          </p>
+          <ol>
+            <li>Career training</li>
+            <li>interview preparation</li>
+          </ol>
+        </div>
+        <div class="a2">
+          <img src="images/team.jpg" alt="" />
+        </div>
+      </div>
+      <div class="jobsection">
+      <h1>Job opportunities</h1>
+      <table class="job-table">
+        <tr>
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted On</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+          <td>Frontend Developer</td>
+          <td>Bangaluru</td>
+          <td>India</td>
+          <td>$120,000</td>
+          <td>Mar 13, 2024</td>
+        </tr>
+        <tr>
+          <td>Full Stack Developer</td>
+          <td>New Delhi</td>
+          <td>India</td>
+          <td>$150,000</td>
+          <td>Feb 1, 2024</td>
+        </tr>
+        <tr>
+          <td>Data Scientist</td>
+          <td>San Francisco</td>
+          <td>USA</td>
+          <td>$175,000</td>
+          <td>Dec 22, 2023</td>
+        </tr>
+        <tr>
+          <td>Machine Learning Engineer</td>
+          <td colspan="2">Remote</td>
+          <td>$80,000</td>
+          <td>April 22, 2024</td>
+        </tr>
+      </table>
+    </div>
+    
+
+    <div class="application">
+        <h2>Submit your Application</h2>
+
+        <form action="https://formbold.com/s/oz8qE" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email address" required>
+            </div>
+            <div>
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div><label for="Position">Position Applied for</label><br>
+                <select name="Position Applied" id="position" required>
+                    <option value="">Select position</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="Backend">Backend Developer</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+            <div>
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div>
+                <label for="CV">Cover Letter</label><br>
+                <textarea id="cover letter"  name="cover letter" rows="5" ></textarea>
+            </div>
+            <div>
+                <label for="terms"><input type="checkbox" id="terms" name="terms"> I agree to the terms and conditions</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit Application">
+            </div>
+        </form>
+    </div>
+</div>
+    <footer>
+      <ul>
+        <li>About Us</li>
+        <li>Contact</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+      <div>© 2023 Rupert</div>
+    </footer>
+  </body>
+</html>
